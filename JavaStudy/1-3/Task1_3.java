@@ -16,7 +16,7 @@ public class Task1_3 {
         int remi = 20 % 6;
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // [有楽町がtown、線がline]
+        // [有楽町がtownなら真、線がlineなら真]
         String town = "有楽町";
         String line = "線";
 
