@@ -3,9 +3,9 @@ public class Task1_2 {
     public static void main(String[] args) {
 
         // ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
-        String[] a = {"JAPAN", "AMERICA", "KOREA"};
+        String[] country = {"JAPAN", "AMERICA", "KOREA"};
         // ② ①で作成した配列の要素数を出力してください。
-        System.out.println("配列aの要素数…" + a.length); 
+        System.out.println("配列countryの要素数…" + a.length); 
 
         /* ③下記の値を保持した、要素数3のStringクラスの配列strArrayを作成しなさい。
          *   1番目（先頭）の要素に 「りんご」 を代入
@@ -18,12 +18,12 @@ public class Task1_2 {
         System.out.println("strArray … " + strArray[1]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-         *  [宣言と初期化を同時に行っている]
+         *  [配列intArrayの宣言と初期化を同時に行っている]
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [⑤の宣言された二番目の数字と五番目の数字を足している]
+        // [⑤の宣言された二番目の数字と五番目の数字を足した合計を出力している]
         System.out.println(intArray[1] + intArray[4]);
 
     }
