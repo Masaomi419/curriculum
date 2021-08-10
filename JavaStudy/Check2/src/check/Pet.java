@@ -1,23 +1,21 @@
 package check;
 
-import constants.Constants;
-
 public class Pet {
 
     private String name;
     private String masterName;
 
     public Pet(String name, String masterName) {
-        this.name = Constants.CHECK_CLASS_JAVA;
-        this.masterName = Constants.CHECK_CLASS_HOGE;
+        this.name = name;
+        this.masterName = masterName;
     }
 
     protected String getName() {
-        return name = Constants.CHECK_CLASS_R2D2;
+        return name;
     }
 
     protected String getMasterName() {
-        return masterName =Constants.CHECK_CLASS_LUKE;
+        return masterName;
     }
 
     public void introduce() {

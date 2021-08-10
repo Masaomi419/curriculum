@@ -1,5 +1,7 @@
 package check;
 
+import constants.Constants;
+
 public class Check {
 	private static String firstName = "Masaomi";
 	private static String lastName = "Onjo";
@@ -10,11 +12,9 @@ public class Check {
 
     System.out.println("printNameメソッド→" + printName);
     
-    Pet jp	= new Pet(firstName, lastName);
+    Pet jp	= new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
     jp.introduce(); 
-    RobotPet ap = new RobotPet(firstName, lastName);
+    RobotPet ap = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
     ap. introduce();
-	}
+    }
 }
-
-
