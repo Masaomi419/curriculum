@@ -16,9 +16,6 @@
     <th>name</th>
     <td><input name="name" type="text"></td>
   </tr>
-</table>
-
-<table>
   <tr>
     <th>id</th>
     <td><input name="id" type="text"></td>
