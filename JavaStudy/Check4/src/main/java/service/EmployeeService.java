@@ -87,7 +87,7 @@ public class EmployeeService {
   // 問⑦ tmpName,tmpComment,tmpLoginTimeに適当な値を入れてください。
  String tmpName = resultSet.getString("name");
  String tmpComment = resultSet.getString("comment");
- String tmpLoginTime = resultSet.getString("comment");
+ String tmpLoginTime = resultSet.getString("login_Time");
  
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
